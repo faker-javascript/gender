@@ -10,7 +10,7 @@ export default function fakeGender(options) {
             "Женский"
         ],
     };
-    let locale = ((options.locale === undefined) ? 'en_US' : options.locale);
+    let locale = options.locale || 'en_US';
     let gendersWithExtra = genders[locale].concat(options.extra || []);
     let randomGender = gendersWithExtra[Math.floor(Math.random() * gendersWithExtra.length)];
     return randomGender;

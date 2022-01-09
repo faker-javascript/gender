@@ -15,15 +15,15 @@ $ npm install --save @fakerjs/gender
 ## Usage
 
 ```js
-import fakeGender from '@fakerjs/gender';
+import gender from '@fakerjs/gender';
 
-fakeGender();
+gender();
 //=> Female
 
-fakeGender({locale: 'ru_RU'});
+gender({locale: 'ru_RU'});
 //=> Женский
 
-fakeGender({extra: ['Gender'], locale: 'en_US'});
+gender({extra: ['Gender'], locale: 'en_US'});
 //=> Gender
 
 // Allowed extra: valid array
