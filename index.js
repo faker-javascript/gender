@@ -1,4 +1,4 @@
-export default function fakeGender(options) {
+export default function gender(options) {
     options = options || {};
     let genders = {
         "en_US": [
