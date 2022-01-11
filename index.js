@@ -1,17 +1,18 @@
+/* eslint camelcase: ["error", {properties: "never"}] */
 export default function gender(options) {
     options = options || {};
-    let genders = {
-        "en_US": [
-            "Male", 
-            "Female"
+    const genders = {
+        en_US: [
+            'Male',
+            'Female',
         ],
-        "ru_RU": [
-            "Мужской", 
-            "Женский"
+        ru_RU: [
+            'Мужской',
+            'Женский',
         ],
     };
-    let locale = options.locale || 'en_US';
-    let gendersWithExtra = genders[locale].concat(options.extra || []);
-    let randomGender = gendersWithExtra[Math.floor(Math.random() * gendersWithExtra.length)];
+    const locale = options.locale || 'en_US';
+    const gendersWithExtra = [...genders[locale], ...options.extra || []];
+    const randomGender = gendersWithExtra[Math.floor(Math.random() * gendersWithExtra.length)];
     return randomGender;
-};
+}
