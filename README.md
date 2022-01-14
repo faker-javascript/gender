@@ -4,7 +4,8 @@ Gender package provides functionality to generate a fake gender value.
 </p>
 
 <p align="center">
-<a href="https://github.com/faker-javascript/gender/releases"><img alt="Version" src="https://img.shields.io/github/release/faker-javascript/gender.svg?label=version&color=green"></a> <img src="https://img.shields.io/npm/dt/@fakerjs/gender"> <a href="https://github.com/faker-javascript/gender"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a> <img src="https://github.com/faker-javascript/gender/actions/workflows/tests.yml/badge.svg">
+<a href="https://github.com/faker-javascript/gender/releases"><img alt="Version" src="https://img.shields.io/github/release/faker-javascript/gender.svg?label=version&color=green"></a> <img src="https://img.shields.io/npm/dt/@fakerjs/gender"> <img alt="node-current" src="https://img.shields.io/node/v/@fakerjs/gender"> <a href="https://github.com/faker-javascript/gender/actions/workflows/ci.yml"><img src="https://github.com/faker-javascript/gender/actions/workflows/ci.yml/badge.svg"></a> <a href="https://github.com/faker-javascript/gender"><img src="https://img.shields.io/badge/license-MIT-blue.svg?color=green" alt="License"></a>
+</p>
 
 ## Install
 
