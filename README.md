@@ -9,8 +9,14 @@ Gender package provides functionality to generate a fake gender value.
 
 ## Install
 
+npm
 ```
-$ npm install --save @fakerjs/gender
+npm install @fakerjs/gender --save-dev
+```
+
+yarn
+```
+yarn add @fakerjs/gender -D
 ```
 
 ## Usage
