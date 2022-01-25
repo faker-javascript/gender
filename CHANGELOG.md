@@ -1,3 +1,7 @@
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/faker-javascript/gender) (2022-01-25)
+* Improve and simplify logic.
+
 <a name="2.2.0"></a>
 # [2.2.0](https://github.com/faker-javascript/gender) (2022-01-19)
 * Add locales folder for genders.
