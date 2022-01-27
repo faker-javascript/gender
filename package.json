@@ -1,6 +1,6 @@
 {
   "name": "@fakerjs/gender",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Gender package provides functionality to generate a fake gender value.",
   "license": "MIT",
   "repository": "faker-javascript/gender",
@@ -28,7 +28,8 @@
   },
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.ts",
+    "locales"
   ],
   "keywords": [
     "fakerjs",
